@@ -1,3 +1,4 @@
+```
 FROM golang:1.11-alpine
 MAINTAINER JaeGerW2016 
 
@@ -13,3 +14,4 @@ RUN curl -fsSL "$REFLEXGLIDE" -o glide.tar.gz && \
     mv linux-amd64/glide /usr/bin/ && \
     rm linux-amd64 -r && \
     rm glide.tar.gz
+```
